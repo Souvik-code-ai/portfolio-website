@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mrportfolio.com</title>
+        <style>
+            #imgcover{
+                border:0px solid yellow;
+                border-radius:15px;
+                width:550px;
+                height:350px;
+                position:absolute;
+                left:300px;
+                top: 250px;
+                text-align: center;
+                text-decoration:none ;
+                color:rgba(54, 6, 187, 0.5);
+                font-weight:200;
+                font-size:35px;
+                background-color: rgb(17, 13, 13);
+                
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                display:flex;
+                flex-direction:row;
+                justify-content:space-between;
+            }
+            #image{
+                border:2px dashed rgba(7, 1, 1,0.5);
+                border-radius:50%;
+                width:80%;
+                height:80%;
+                background-image: url("WhatsApp Image 2024-07-23 at 08.58.56.jpeg");
+                background-size:contain;
+                animation:imageanimation 2s linear 3s infinite alternate;
+            }
+            @keyframes imageanimation{
+                from{transform:scale(1,1);}
+                to{transform:scale(0.75,0.75);}
+            }
+            .elements{
+                height:200px;
+                width:100vw;
+                position:absolute;
+                top:3950px;
+                background-color: rgb(224, 149, 57);
+            }
+            .subelements{
+                width:100vw;
+                height:100vh;
+                color:white;
+                font-size: 20px;
+                
+            }
+            #whole{
+                background-color: rgb(17, 13, 13);
+                height:100vh;
+                width:100vw;
+            }      
+            #caption{
+                color:white;
+                font-size:15px;
+                width:98%;
+                height:100%;
+                background-color:rgb(17, 13, 13);
+                text-align:center;
+                display:flex;
+                flex-direction: column;
+                justify-content:center;
+                align-items:center;
+            }
+            .do{
+                text-decoration: none;
+                height:50px;
+                width:150px;
+                font-size: 20px;
+                display:flex;
+                flex-direction:row;
+                justify-content: center;
+                color:rgb(250,250,250);
+                background-color:rgb(17,13,13);
+                border-radius: 10px;
+                padding-top: 3px;
+            }
+            .do:hover{
+                background-color:rgba(182, 175, 175,0.8) ;
+            }
+            #options{
+                background-color: rgb(17, 13, 13);
+                width:100vw;
+                height:40px;
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            body{
+                background-color:rgb(17, 13, 13) ;
+            }
+            #souvik{
+                position: absolute;
+                top:600px;
+                height:100vh;
+                width:100vw;
+                text-align: center;
+
+                
+            } 
+            #cont{
+                list-style-type: none;
+                
+            }   
+            #form{
+                background-color: white;
+                height:200px;
+                width:300px;
+                position:absolute;
+                left:30px;
+                border-radius: 10px;
+            }
+            #form{
+                color:black;
+                padding:8px 2px 2px 10px;
+                position:absolute;
+                left:530px;
+            }
+            #submit{
+                width:300px;
+                height:50px;
+                position:absolute;
+                left:120px;
+                padding-top:10px ;
+            }
+            #edit{
+                background-color: rgba(32, 32, 219,0.3);
+            }
+            /*#skills{
+                background-color: black;
+                color:white;
+                position:absolute;
+                left:40px;
+            }*/
+            #marks,#skill{
+                display:inline-block;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="options">
+            <div><a href="#about" class="do">About</a></div>
+            <div><a href="#skills" class="do">Cgpa&Skills</a></div>
+            <div><a href="#achievements" class="do">Achievements</a></div>
+            <div><a href="#contacts" class="do">Contact</a></div>
+            <div><a href="#review" class="do">Impression</a></div>
+            <div><a href="#feedbackdiv" class="do">Feedback</a></div>
+        </div>
+        <br><hr>
+        <div id="imgcover" class="div">
+            <div id="image" class="div"></div>
+            <div id="caption" class="div"><p id="self">Myself,<br>Souvik Purkait,a<br> Passionate Programmer<br>--------------------------------------<br> SKILLS SPEAK LOUDER THAN WORDS</div>
+        </div>
+        <div id="souvik">
+            <div id="about" class="subelements">
+                <h1>INTRODUCTION:</h1>At present,I am pursuing BTECH degree in Electrical Department at RCC INSTITITUTE OF INFORMATION TECHNOLOGY,BELEGHATA, under MAKAUT.Besides my academic curriculam,I am very passionate to gather knowledge in software-development skills like-DSA,Programming Language,Web development etc.All my achieved skills till date are mentioned in SKILLS section of my portfolio.
+            </div>
+            <div id="skills" class="subelements"><h3><b><u>My Academic Performance(upto 7<sup>th</sup>sem):</u></b></h3>
+                <div>
+                    <div id="marks">
+                        <table>
+
+                            <tr>
+                                <th><b>SEM NO.</b></th>
+                                <th><b>CGPA</b></th>
+                            </tr>
+                            <tr>
+                                <td >1</td>
+                                <td >9.37</td>
+                            </tr>
+                            <tr>
+                                <td >2</td>
+                                <td >9.27</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>6.59</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <th>7.53</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>7.5</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>6.61</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>7.84</td>
+                            </tr>
+                            <tr>
+                                <td>avg.</td>
+                                <td>7.816</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <h3><b><u>SKILLS:</u></b></h3>
+                <div id="skill">
+                    <table>
+                        <tr>
+                            <th>PROGORAMMING LANGUAGE</th>
+                            <td> C,Python</td>
+                        </tr>
+                        <tr>
+                            <th>FRONTEND</th>
+                            <td>HTML,CSS,Javascript</td>
+                        </tr>
+                        <tr>
+                            <th>DATABASE</th>
+                            <td>MySQL</td>
+                        </tr>
+
+                    </table>
+                </div>
+                <h3><b><u>MY RESUME</u></b></h3>
+                <p> Download link if required:<a href="resumeaccenture.pdf" target="__main__">Resume</a></p>
+            </div>
+            <div id="achievements" class="subelements"><h1 id="achi">ACHIEVEMENTS:</h1>
+                <p id="py">1. Python language learner at:<a href="https://www.linkedin.com/company/learnwik-solutions-pvt-ltd/?originalSubdomain=in"  target="__main__">Learnwik Solutions Pvt Ltd.</a><br><p>Completion Certificate<a href="LW01036 - SOUVIK PURKAIT - IND.pdf"  target="__main__">Click Here</a></p></p>
+                <P id="js">2.Mastery in Javascript:<a href="https://lernx.io/" target="__main__">Website Link</a><br><p>Completion Certificate:<a href="js certificate.jpg" target="__main__">Click Here</a></P></p>
+            </div>
+
+           <!--<div id="contacts" class="subelements"><h1><b><u>CONTACT INFORMATION:<u></b></h1>
+                <ul>
+                    <li><p id="ph">CONTACT NO:7439924851</p></li>
+                    <li><p>GMAIL ADDRESS:<a href="purkaitsouvik531@gmail.com" target="__main__">purkaitsouvik531gmail.com</a></p></li>
+                    <li><p>LINKEDIN PROFILE:<a href="https://www.linkedin.com/in/souvik-purkait-3b5a9727b/" target="__main__">Souvik</a></p></li>
+                </ul>
+            </div>-->
+            <div id="review" class="subelements">
+                <p><u><b>IMPRESSION REGARDING MY PORTFOLIO:</b></u></p>
+                <div id="form">
+                    <form action="Untitled-1.php" method="Post">
+                        <label for="email">Email Address<br><input type="email" placeholder="abc@gmail"></label><br>
+                        <label for="contact">Contact Number<br><input type="number" placeholder="1234567890"></label><br>
+                        <label>Impression:</label><br>
+                        <label for="option1">
+                            <input type="radio" name="option" value="option1" class="label" id="option1">Hire me</label>
+                        <label for="option2">
+                            <input type="radio" name="option" value="option2" class="label" id="option2">Give Feedback</label><br>
+                        <label for="option3">
+                            <input type="radio" name="option" value="option3" class="label" id="option3">Hire me & give Feedback</label>
+                        <br>
+                        <input id="edit" type="submit" value="Connect"><!--value is the text which is to be displayed where closing of tag is not present-->
+                    </form>
+                </div>
+            </div>
+            <div id="feedbackdiv" class="subelements">
+                <h1><u>GIVE FEEDBACK ABOUT MY PORTFOLIO:</u></h1>
+                <label for="feedback">
+                    <textarea name="feedback" placeholder="Give feedback here" rows="20"  id="feedback"></textarea>
+                </label><br>
+                <button id="sub">Submit</button>
+            </div>
+        </div>
+        <div id="contacts" class="elements"><h1><b><u>CONTACT INFORMATION:<u></b></h1>
+            <ul>
+                <li id="cont"><p id="ph">CONTACT NO:7439924851</p></li>
+                <li id="cont"><p id="ph">GMAIL ADDRESS:<a href="" target="__main__">purkaitsouvik531gmail.com</a></p></li>
+                <li id="cont"><p id="ph">LINKEDIN PROFILE:<a href="https://www.linkedin.com/in/souvik-purkait-3b5a9727b/" target="__main__">CLICK HERE</a></p></li>
+            </ul>
+            <a href="#options">back to home</a>
+        </div>
+        
+        <script src="portfolio.js"></script>
+        <script src="oopjs.js"></script>
+    </body>
+   
+</html>
